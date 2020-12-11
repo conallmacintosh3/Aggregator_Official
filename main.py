@@ -252,7 +252,7 @@ class ScienceNews(AggregatorChrome):
 
 
 class TechCrunch(AggregatorChrome):
-    key_words = ["SpaceX", "Space", "Nasa", "NASA"]
+    key_words = ["Space", "Nasa", "NASA"]
 
     def __init__(self, link):
         super().__init__(link)
